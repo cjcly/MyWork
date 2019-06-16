@@ -1,0 +1,94 @@
+@charset 'utf-8';
+
+/* 当它的宽度缩小到990的时候，出现新的样式 */
+@media screen and ( max-width:990px ){
+	.list{
+		display:none;
+	}
+	header #logo{
+		position:absolute;
+		left:50%;
+		margin-left:-56px;
+	}
+	.select-list{
+		display:block;
+	}
+
+	/* section1 start */
+	#section1{
+		height:545px;
+	}
+	#section1 .create-web{
+		left:0;
+		right:0;
+		bottom:0;
+		top:0;
+		margin:auto;
+	}
+	
+
+	/* section1 end */
+
+	/* section2 start */
+	#section2 .convenience-show{
+		display:none;
+	}
+	#section2 .food{
+		display:block;
+		max-width:990px;
+	}
+	/* section2 end */
+	
+	/* section3 start */
+	#section3 .template .template-pic{
+		float:none;
+		width:100%;
+		height:auto;
+
+	}
+	#section3 .template .template-description{
+		float:none;
+		width:100%;
+	}
+	#section3 .template .template-description h2{
+		text-align:center;
+		line-height:110px;
+	}
+
+	/* section3 end */
+
+	/* section6 star */
+	#section6 ul.function{
+		max-width:710px;
+	}
+	#section6 .function li{
+		width:100%;
+	}
+
+	/* section6 end */
+
+	/* section8 star */
+	#section8 .create-web-service li{
+		float:none;
+		width:80%;
+		margin:auto;
+	}
+
+
+	/* section8 end */
+	#section9 .pic{
+		width:80%;
+		margin:auto;
+	}
+
+	
+	/* section10 start  */
+
+	.cooperation-partner li{
+		width:calc(50% - 2px);
+		margin-right:0;
+	}
+
+	/* section10 end  */
+
+}

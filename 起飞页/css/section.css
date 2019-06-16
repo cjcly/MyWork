@@ -1,0 +1,360 @@
+@charset 'utf-8';
+
+#section1{
+	position: relative;
+	width:100%;
+	height:auto;
+	/* border:2px solid #0f0; */
+}
+#section1 .create-web{
+	position:absolute;
+	right:10%;
+	bottom:25%;
+	width: 400px;
+	height:380px;
+	/* border:2px solid #0f0; */
+}
+#section1 .create-web .text{
+	text-align:center;
+	color:#c3c3c3;
+}
+#section1 .create-web .text h2{
+	font-size:40px;
+	font-weight:normal;
+	padding-bottom:80px;
+	line-height:50px;
+}
+#section1 .create-web .text p{
+	font-size:24px;
+}
+#section1 .create-web .text .create-account{
+	width: 260px;
+	height:60px;
+	border:1px solid #fff;
+	font-size:24px;
+	color:#fff;
+	text-align:center;
+	line-height:60px;
+	background-color: transparent;
+	margin-top:50px;
+}
+#section1 .create-web .text .create-account:hover{
+	background-color: #fff;
+	color:#ccc;
+}
+
+
+
+#section2{
+	/* height:1000px */;
+	background-color: #fff;
+	padding-top:105px;
+	padding-bottom:100px;
+}
+#section2 .text{
+	text-align:center;
+}
+#section2 .text h2{
+	font-size:46px;
+	font-weight:normal;
+
+}
+#section2 .text p{
+	font-size:20px;
+	padding:35px 0 60px;
+}
+
+#section2 .convenience-show{
+	position: relative;
+	max-width:1000px;
+	height:700px;
+	/* border:1px solid #000; */
+	margin:auto;
+	background-image: url('../images/section/section2/computer.png');
+}
+#section2 .convenience-show .media{
+	overflow:hidden;
+	position: absolute;
+	top:40px;
+	left:120px;
+	margin:auto;
+	width:760px;
+	height: 410px;
+	/* border:2px solid #000; */
+}
+#section2 .food{
+	display:none;
+	/* border:2px solid deeppink; */
+	text-align:center;
+}
+
+
+#section3{
+	height:auto;
+	background-color: #f9f9f9;
+	padding-top:90px;
+	padding-left:90px;
+	padding-right:90px;
+	padding-bottom:50px;
+}
+#section3 .template{
+	width: 100%;
+	/* height:370px; */
+	/* background-color: #f90; */
+
+}
+#section3 .template .template-pic{
+	width:50%;
+	height:100%;
+	/* background-color: #f30; */
+}
+#section3 .template .template-description{
+	width:50%;
+	height:100%;
+	/* background-color: #09f; */
+	
+}
+#section3 .template .template-description h2{
+	height:140px;
+	/* border:1px solid #00f; */
+	font-size:36px;
+	font-weight:normal;
+}
+#section3 .template .template-description p{
+	line-height:26px;
+	color:#696969;
+}
+
+
+#section6{
+	width:100%;
+	/* height:860px; */
+	background-color: #ccc;
+	padding-top:140px;
+
+}
+#section6 .text{
+	text-align:center;
+	
+}
+#section6 .text h2{
+	font-size:40px;
+	font-weight:normal;
+}
+#section6 .text p{
+	padding:30px 0 75px;
+}
+#section6 ul.function{
+	max-width:900px;
+	/* height:350px; */
+	/* border:2px solid deeppink; */
+	margin:auto;
+}
+#section6 .function li{
+	float:left;
+	width:32%;
+	/* height:170px; */
+	border:1px solid #999;
+	margin-right:10px;
+	margin-bottom:10px;
+	padding-top:30px;
+	padding-bottom:20px;
+	cursor:pointer;
+}
+#section6 .function li:hover{
+	border:1px solid skyblue;
+	background-color:#FFF;
+}
+#section6 .function li .pic{
+	width:82px;
+	height:70px;
+	/* border:1px solid #f00; */
+	margin:auto;
+	background-image:url('../images/section/section6/issue1.png');
+}
+#section6 .function li:hover .pic{
+	background-image:url('../images/section/section6/issue.png');	
+}
+#section6 .function li p{
+	text-align:center;
+}
+
+#section7{
+	width:100%;
+	/* height:480px; */
+	background-color:#fff;
+}
+#section7 .text{
+	text-align:center;
+}
+#section7 .text h2{
+	font-size:40px;
+	font-weight:normal;
+	padding-top:155px;
+	padding-bottom:45px;
+}
+#section7 .text p{
+	color:#ccc;
+	font-size:18px;
+}
+#section7 .banner{
+	width:100%;
+	/* height:260px */;
+	/* background-color:#FF0; */
+	padding:0 50px;
+	box-sizing:border-box;
+}
+#section7 .banner .content{
+	position: relative;
+	max-width:1200px;
+	height:100%;
+	/* border:2px solid skyblue; */
+}
+#section7 .banner .content ul{
+	width:100%;
+	height:100%;
+	display:flex;
+}
+#section7 .banner .content ul li{
+	width:300px;
+	height:100%;
+	/* border:1px solid #0ff; */
+	/* background-color:#F0f; */
+	margin-right:40px;
+	cursor:pointer;
+}
+#section7 .banner .content ul li:last-child{
+	margin-right:0px;
+}
+#section7 .banner .btn{
+}
+#section7 .banner .btn span{
+	position:absolute;
+	width:35px;
+	height:70px;
+	/* border:1px solid #09f; */
+	text-align:center;
+	line-height:70px;
+	color:#ccc;
+	top:50%;
+	margin-top:-35px;
+	font-size:30px;
+	cursor:pointer;
+
+}
+#section7 .banner .btn span.prev{
+	left:-55px;
+
+}
+#section7 .banner .btn span.next{
+	right:-55px;
+}
+
+
+#section8{
+	width: 100%;
+	/* height:800px; */
+	background-color: #f9f9f9;
+	padding-top:240px;
+	padding-bottom:100px;
+	/* overflow:hidden; */
+}
+#section8 .text{
+	text-align:center;
+}
+#section8 .text h2{
+	font-size:40px;
+	font-weight:normal;
+}
+#section8 .text p{
+	padding-top:45px;
+	padding-bottom:80px;
+}
+#section8 .create-web-service{
+	width:100%;
+	/* background-color: #fff; */
+	padding:0 50px;
+	box-sizing:border-box;
+}
+#section8 .create-web-service li{
+	float:left;
+	width:32%;
+}
+#section8 .more{
+	display:block;
+	width:200px;
+	height:40px;
+	background-color: skyblue;
+	border-radius:30px;
+	border:0;
+	text-align:center;
+	margin:auto;
+	outline:none;
+	cursor:pointer;
+	color:#fff;
+}
+#section9{
+	/* height: 1200px; */
+	background-color:#9f0;
+	background-image: url('../images/section/section9/bg1.jpg');
+	background-position:center;
+	background-size:cover;
+	padding-top:110px;
+	padding-bottom:100px;
+}
+#section9 .text{
+	text-align:center;
+	font-weight:bold;
+	color:#fff;
+}
+#section9 .text h2{
+	font-size:40px;
+	
+}
+#section9 .text p{
+	max-width:940px;
+	padding-bottom:70px;
+	padding-top:40px;
+	margin:auto;
+}
+#section9 .pic{
+	text-align:center;
+}
+
+
+#section10{
+	width: 100%;
+	/* height: 620px; */
+	/* background-color: #f90; */
+	padding-bottom:75px;
+}
+#section10 h2{
+	width: 100%;
+	font-weight:normal;
+	font-size:40px;
+	text-align:center;
+	padding-top:120px;
+
+}
+.cooperation-partner{
+	max-width:1190px;
+	/* border:2px solid #f0f; */
+	margin:auto;
+}
+.cooperation-partner li{
+	float:left;
+	width:calc(25% - 12px);
+	height:205px;
+	border:1px solid #ccc;
+	padding-top:45px;
+	margin-right:10px;
+	text-align:center;
+	color:#cdcdcd;
+}
+.cooperation-partner li p.name{
+	margin-top:30px;
+	font-size:20px;
+}
+.cooperation-partner li p.English-name{
+	font-size:16px;
+}
